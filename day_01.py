@@ -9,12 +9,13 @@ for line in file:
     else:
         total = total + int(line)
 
-maxcalories = 0
-for elf in elves:
-    if elf > maxcalories:
-        maxcalories = elf
+# maxcalories = 0
+# for elf in elves:
+#     if elf > maxcalories:
+#         maxcalories = elf
 
-print(maxcalories)
+# print(maxcalories)
 
 elves.sort()
+print(elves[-1])
 print(elves[-1]+elves[-2]+elves[-3])
